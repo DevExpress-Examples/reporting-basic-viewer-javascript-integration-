@@ -1,9 +1,9 @@
 {
     "name": "report-designer-example",
     "dependencies": {
-        "devextreme": "~20.1.2",
-        "@devexpress/analytics-core": "~20.1.2",
-        "devexpress-reporting": "~20.1.2",
+        "devextreme": "^20.2.2",
+        "@devexpress/analytics-core": "^20.2.2",
+        "devexpress-reporting": "^20.2.2",
         "jquery-ui-dist": "^1.12.1"
     }
 }
