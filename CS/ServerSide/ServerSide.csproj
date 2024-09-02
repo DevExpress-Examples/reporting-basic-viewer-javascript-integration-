@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>
-    </ProductVersion>
+    <ProductVersion></ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{0E55F403-A65C-4EA4-BC88-32F793CD0728}</ProjectGuid>
     <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
@@ -13,7 +12,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ServerSide</RootNamespace>
     <AssemblyName>ServerSide</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -23,8 +22,7 @@
     <TargetFrameworkProfile />
     <UseGlobalApplicationHostFile />
     <Use64BitIISExpress />
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
+    <NuGetPackageImportStamp></NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,49 +42,50 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.v21.2">
+    <Reference Include="DevExpress.Drawing.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.DataAccess.v21.2">
+    <Reference Include="DevExpress.Data.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Office.v21.2.Core">
+    <Reference Include="DevExpress.DataAccess.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v21.2.Core">
+    <Reference Include="DevExpress.Office.v24.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v21.2.Export">
+    <Reference Include="DevExpress.RichEdit.v24.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Printing.v21.2.Core">
+    <Reference Include="DevExpress.RichEdit.v24.2.Export">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Web.Mvc.v21.2">
-    </Reference>
-    <Reference Include="DevExpress.Xpo.v21.2">
+    <Reference Include="DevExpress.Printing.v24.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Charts.v21.2.Core">
+    <Reference Include="DevExpress.Web.Mvc.v24.2"></Reference>
+    <Reference Include="DevExpress.Xpo.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v21.2">
+    <Reference Include="DevExpress.Charts.v24.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.PivotGrid.v21.2.Core">
+    <Reference Include="DevExpress.XtraCharts.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Sparkline.v21.2.Core">
+    <Reference Include="DevExpress.PivotGrid.v24.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.CodeParser.v21.2">
+    <Reference Include="DevExpress.Sparkline.v24.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v21.2">
+    <Reference Include="DevExpress.CodeParser.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v21.2.Web">
+    <Reference Include="DevExpress.XtraReports.v24.2">
+      <SpecificVersion>False</SpecificVersion>
     </Reference>
+    <Reference Include="DevExpress.XtraReports.v24.2.Web"></Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -118,13 +117,11 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="System.Net.Http">
-    </Reference>
+    <Reference Include="System.Net.Http"></Reference>
     <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.30506.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
-    <Reference Include="System.Net.Http.WebRequest">
-    </Reference>
+    <Reference Include="System.Net.Http.WebRequest"></Reference>
     <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.Helpers.dll</HintPath>
@@ -222,8 +219,7 @@
           <IISUrl>http://localhost:54114/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
+          <CustomServerUrl></CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>

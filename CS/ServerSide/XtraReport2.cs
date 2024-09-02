@@ -240,7 +240,7 @@ namespace ServerSide {
             this.Title.BorderColor = System.Drawing.Color.Black;
             this.Title.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.Title.BorderWidth = 1F;
-            this.Title.Font = new System.Drawing.Font("Tahoma", 14F);
+            this.Title.Font = new DevExpress.Drawing.DXFont("Tahoma", 14F);
             this.Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
             this.Title.Name = "Title";
             // 
@@ -249,7 +249,7 @@ namespace ServerSide {
             this.DetailCaption3.BackColor = System.Drawing.Color.Transparent;
             this.DetailCaption3.BorderColor = System.Drawing.Color.Transparent;
             this.DetailCaption3.Borders = DevExpress.XtraPrinting.BorderSide.None;
-            this.DetailCaption3.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
+            this.DetailCaption3.Font = new DevExpress.Drawing.DXFont("Tahoma", 8F, DevExpress.Drawing.DXFontStyle.Bold);
             this.DetailCaption3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
             this.DetailCaption3.Name = "DetailCaption3";
             this.DetailCaption3.Padding = new DevExpress.XtraPrinting.PaddingInfo(6, 6, 0, 0, 100F);
@@ -257,7 +257,7 @@ namespace ServerSide {
             // 
             // DetailData3
             // 
-            this.DetailData3.Font = new System.Drawing.Font("Tahoma", 8F);
+            this.DetailData3.Font = new DevExpress.Drawing.DXFont("Tahoma", 8F);
             this.DetailData3.ForeColor = System.Drawing.Color.Black;
             this.DetailData3.Name = "DetailData3";
             this.DetailData3.Padding = new DevExpress.XtraPrinting.PaddingInfo(6, 6, 0, 0, 100F);
@@ -269,7 +269,7 @@ namespace ServerSide {
             this.DetailData3_Odd.BorderColor = System.Drawing.Color.Transparent;
             this.DetailData3_Odd.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.DetailData3_Odd.BorderWidth = 1F;
-            this.DetailData3_Odd.Font = new System.Drawing.Font("Tahoma", 8F);
+            this.DetailData3_Odd.Font = new DevExpress.Drawing.DXFont("Tahoma", 8F);
             this.DetailData3_Odd.ForeColor = System.Drawing.Color.Black;
             this.DetailData3_Odd.Name = "DetailData3_Odd";
             this.DetailData3_Odd.Padding = new DevExpress.XtraPrinting.PaddingInfo(6, 6, 0, 0, 100F);
@@ -285,7 +285,7 @@ namespace ServerSide {
             // 
             // PageInfo
             // 
-            this.PageInfo.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
+            this.PageInfo.Font = new DevExpress.Drawing.DXFont("Tahoma", 8F, DevExpress.Drawing.DXFontStyle.Bold);
             this.PageInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
             this.PageInfo.Name = "PageInfo";
             this.PageInfo.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
